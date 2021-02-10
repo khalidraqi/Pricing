@@ -1,0 +1,54 @@
+$color1:#e7eaf0;
+$color2:#0000FF;
+$color3:#000000;
+$color4:#ffffff;
+body{
+    background-color:$color1;
+    font-family: sans-serif;
+    h1 {
+        color: $color3;
+        text-align: center;
+            }
+    section{
+    display: flex;
+    justify-content: center;
+    
+    .art{
+        color: $color3;
+        margin: 2%;
+        background-color:$color4 ;
+        width: 320px;
+        height: 500px;
+        box-shadow: 5px 5px 5px 5px grey;
+        
+            h2{
+             @extend h1 ;
+             margin-top:20px;
+        
+         }
+            h3{
+              @extend h1;
+              color: $color2;
+        }
+
+            ul {
+                list-style-image: url(check.png);
+                margin-left: 65px;
+            }
+        .btn-outline-primary{
+            margin-left: 80px;
+            width: 50%;
+
+}
+}
+button{
+    margin-top: 192px;
+}
+.but2{
+    margin-top: 144px;
+}
+.but3{
+    margin-top: 98px;
+}
+}
+}

@@ -1,0 +1,59 @@
+body {
+  background-color: #e7eaf0;
+  font-family: sans-serif;
+}
+
+body h1, body section .art h2, body section .art h3 {
+  color: #000000;
+  text-align: center;
+}
+
+body section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body section .art {
+  color: #000000;
+  margin: 2%;
+  background-color: #ffffff;
+  width: 320px;
+  height: 500px;
+  -webkit-box-shadow: 5px 5px 5px 5px grey;
+          box-shadow: 5px 5px 5px 5px grey;
+}
+
+body section .art h2 {
+  margin-top: 20px;
+}
+
+body section .art h3 {
+  color: #0000FF;
+}
+
+body section .art ul {
+  list-style-image: url(check.png);
+  margin-left: 65px;
+}
+
+body section .art .btn-outline-primary {
+  margin-left: 80px;
+  width: 50%;
+}
+
+body section button {
+  margin-top: 192px;
+}
+
+body section .but2 {
+  margin-top: 144px;
+}
+
+body section .but3 {
+  margin-top: 98px;
+}
+/*# sourceMappingURL=style.css.map */
